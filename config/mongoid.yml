@@ -138,7 +138,7 @@ test:
 
 # This is my production setup at Heroku.com. Yours will vary. 
 production:
-sessions:
-default:
-uri: <%= ENV['MONGOHQ_URL'] %>
-options:
+  clients:
+    default:
+      uri: <%= ENV['MONGOHQ_URL'] %>
+      options:

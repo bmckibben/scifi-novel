@@ -21,6 +21,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # css stuff
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
+gem 'angularjs-rails', '1.5.6'
 
 # Database ODM
 gem'mongoid', '~> 5.0.0'
